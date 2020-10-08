@@ -1,5 +1,5 @@
 ---
-title: "Address-based Signature."
+title: "Address-based Signature"
 collection: publications
 permalink: /publication/2020-12-trustcom
 excerpt: ''
