@@ -8,5 +8,3 @@ venue: 'The 14th International Conference on Information Security and Cryptology
 paperurl: 'https://doi.org/10.1007/978-3-030-14234-6_5'
 citation: 'Dimaz Ankaa Wijaya, Joseph K. Liu, Ron Steinfeld, Dongxi Liu and Tsz Hon Yuen: Anonymity Reduction Attacks To Monero. Inscrypt 2018: 86-100'
 ---
-
-Recommended citation: Dimaz Ankaa Wijaya, Joseph K. Liu, Ron Steinfeld, Dongxi Liu, Tsz Hon Yuen: Anonymity Reduction Attacks To Monero. <i>Inscrypt 2018</i>. 1-15. 
