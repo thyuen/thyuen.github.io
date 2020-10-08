@@ -19,4 +19,4 @@ E-voting
 Trusted Participatory Journalism by Blockchain
 ======
 Participatory journalism (also known as citizen journalism) is based upon public citizens playing an active role in the process of collecting, reporting, analyzing, and disseminating news and information. It becomes more and more popular with the use of smart phone for taking photos or streaming videos. One of the major concern in this area is the authenticity and the integrity of photos or videos taken by the citizen journalist. This project aims to use blockchain to ensure that the photos are within a short period of time (such that there is not much time for photoshop), and no one can claim that a photo is taken at a later time. The authorship of the photos can also be claimed easily. It can greatly increase the trust on participatory journalism. <br/>
-<a>https://wp.cs.hku.hk/fyp20049/trusted-participatory-journalism-by-blockchain/</a>
+<a href="https://wp.cs.hku.hk/fyp20049/trusted-participatory-journalism-by-blockchain/">Project Website</a>
