@@ -1,5 +1,5 @@
 ---
-title: "LPPRS: New Location Privacy Preserving Schemes Based on Ring Signature over Mobile Social Networks"
+title: "LPPRS: New Location Privacy Preserving Schemes Based on Ring Signature over Mobile Social Networks."
 collection: publications
 permalink: /publication/2020-12-inscrypt
 excerpt: ''
