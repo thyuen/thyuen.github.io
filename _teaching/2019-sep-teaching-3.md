@@ -13,4 +13,4 @@ Student individuals or groups, during the final year of their studies, undertake
 Decentralized Identity Platform By Blockchain
 ======
 This project aims to deliver an improved alternative to existing digital identity validation mechanisms. This alternate solution will leverage blockchain to create decentralized (not relying on centralized databases for storage of data identities for people, thereby handing them absolute control over their digital identities and eliminating dependencies on centralized authorities. <br/>
-<a>https://i.cs.hku.hk/fyp/2019/fyp19055/</a>
+<a href="https://i.cs.hku.hk/fyp/2019/fyp19055/">Project Website</a>
