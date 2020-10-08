@@ -63,6 +63,7 @@ Service and leadership
 * Program committee member
   * IEEE Conference on Dependable and Secure Computing (IEEE DSC) 2020
   * European Symposium on Research in Computer Security (ESORICS) 2020
+  * International Conference on Information Security and Cryptology (Inscrypt) 2020
   * International Annual Conference on Privacy, Security and Trust (PST) 2020
   * IEEE Global Communications Conference, Communication and Information System Security Symposium (IEEE Globecom CISS) 2020, 2019, 2018, 2017, 2016
   * IEEE International Conference on Trust, Security and Privacy in Computing and Communications (IEEE TrustCom), Emerging Technologies, 2020, 2019.
@@ -76,7 +77,7 @@ Service and leadership
   * International Conference on Information and Communication Security (ICICS) 2020, 2019, 2018, 2014
   * Information Security Conference (ISC) 2020, 2014
   * International Conference on P2P, Parallel, Grid, Cloud and Internet Computing (3PGCIC) 2014
-  * Network and System Security (NSS) 2019, 2014
+  * Network and System Security (NSS) 2020, 2019, 2014
   * International Conference on Provable Security (ProvSec) 2018, 2016, 2013
   * International Symposium on Cyberspace Safety and Security (CSS) 2013
   * International Workshop on Large-Scale Network Security (LSNS) 2013
