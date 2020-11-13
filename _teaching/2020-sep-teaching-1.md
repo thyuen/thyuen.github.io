@@ -12,9 +12,18 @@ Student individuals or groups, during the final year of their studies, undertake
 
 Stablecoin
 ======
+Stablecoins are cryptocurrencies designed to minimize the volatility of the price of the stablecoin, relative to some "stable" asset or basket of assets. A stablecoin can be pegged to a cryptocurrency, fiat money, or to exchange-traded commodities (such as precious metals or industrial metals). The stablecoin USDT is pegged with USD and recently it has a daily transaction amount larger than Bitcoin. It has a good chance to be used in our daily shopping. The project aims to build a stablecoin for HKD and tries to build an app for using it in a shop.
+
+<a href="https://wp.cs.hku.hk/fyp20032/stable-coin-for-hkd/">Project 1 Website</a>
+
+<a href="https://kaiman123.github.io/HKDT/">Project 2 Website</a>
+
 
 E-voting
 ======
+E-voting is (partially) implemented in some countries such as US, Brazil, India, Estonia, etc. Some of them requires dedicated voting machine to provide a strong level of security and privacy. In Hong Kong, the HKU POP has an online voting platform. However, it still has a lot of issues in the implementation when used in a large scale (e.g. how to prevent double voting? how to provide anonymity for your vote?). This project will investigate which e-voting system is the most suitable method for Hong Kong, and then implement such system.
+
+<a href="https://wp.cs.hku.hk/fyp20023/e-voting-platform/">Project Website</a>
 
 Trusted Participatory Journalism by Blockchain
 ======
