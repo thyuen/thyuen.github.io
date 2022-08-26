@@ -1,5 +1,5 @@
 ---
-title: "Don’t Tamper with Dual System Encryption (Beyond Polynomial Related-Key Security of IBE)."
+title: "Hash Proof System with Auxilary Inputs and Its Applications."
 collection: publications
 permalink: /publication/2022-10-trustcom
 excerpt: ''
