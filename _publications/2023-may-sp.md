@@ -1,0 +1,10 @@
+---
+title: "BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs Supporting Variable Amounts."
+collection: publications
+permalink: /publication/2023-may-sp
+excerpt: ''
+date: May 22, 2023
+venue: '44th IEEE Symposium on Security and Privacy, San Francisco, USA. May 22-25, 2023.'
+paperurl: 'https://eprint.iacr.org/2022/1735'
+citation: 'Xianrui Qin, Shimin Pan, Arash Mirzaei, Zhimei Sui, Oğuzhan Ersoy, Amin Sakzad, Muhammed F. Esgin, Joseph K. Liu, Jiangshan Yu, Tsz Hon Yuen: BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs Supporting Variable Amounts. To appear in IEEE S&P 2023.'
+---
