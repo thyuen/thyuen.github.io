@@ -1,5 +1,5 @@
 ---
-title: "Using clinical history taking chatbot mobile app for clinical bedside teachings - A prospective case control study."
+title: "Using Clinical History Taking Chatbot Mobile App for Clinical Bedside Teachings - A Prospective Case Control Study."
 collection: publications
 permalink: /publication/2022-06-heliyon
 excerpt: ''
