@@ -1,5 +1,5 @@
 ---
-title: "ECOM7001. Case Study Project [2020 - 2022]"
+title: "ECOM 7001. MSc(ECom&IComp) Case Study Project [2020 - 2022]"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2020-jan-teaching-1
