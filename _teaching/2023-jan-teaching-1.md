@@ -1,5 +1,5 @@
 ---
-title: "FITE2010. Distributed Ledger & Blockchain. [2022 - now]"
+title: "FITE2010. Distributed Ledger & Blockchain. [2022 - 2022]"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023-jan-teaching-1
