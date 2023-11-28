@@ -1,5 +1,5 @@
 ---
-title: "DASC7600. Data science project. [2020 - 2023]"
+title: "DASC7600. MDASC Data science project. [2020 - 2023]"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2020-sep-teaching-2
