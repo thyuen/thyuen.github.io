@@ -17,12 +17,15 @@ Education
 
 Work experience
 ======
+* July 2018 - Dec 2023: Assistant Professor
+  * Department of Computer Science, The University of Hong Kong
+  * Duties included: Teaching undergraduate and postgraduate courses in computer science and finanical technology.
+  * Research directions: Public key cryptography, blockchain, privacy
 * Dec 2013 - July 2018: Senior Researcher
   * Shield Lab, Huawei Singapore Research Centre
   * Duties included: Participate in the Cryptography Expert Group of Huawei and provide consultations on cryptographic
 algorithms used in Huawei's products, including mobile devices, network devices, databases, softwares and cloud applications. Research in cryptographic protocols, apply for their patents and develop prototypes for products, including key management server, pseudorandom number generator, big data privacy system, and identity-based encryption for mobile communication.
   * Research directions: Public key cryptography, blockchain, pseudorandom number generator 
-
 * Dec 2010 - Dec 2013: Post-Doctoral Fellow
   * The University of Hong Kong
   * Research directions: Identity-based encryption, attribute-based encryption, leakage resillient cryptography, anonymous credential
