@@ -17,6 +17,10 @@ Education
 
 Work experience
 ======
+* Feb 2024 - now: Associate Professor
+  * Department of Software Systems and Cybersecurity (SSC), Monash University
+  * Duties included: Director of Research (SSC). Teaching undergraduate and postgraduate courses in software systems and cybersecurity. 
+  * Research directions: Public key cryptography, blockchain, privacy
 * July 2018 - Dec 2023: Assistant Professor
   * Department of Computer Science, The University of Hong Kong
   * Duties included: Teaching undergraduate and postgraduate courses in computer science and finanical technology.
