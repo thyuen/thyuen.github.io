@@ -1,5 +1,5 @@
 ---
-title: "FIT9138 - Information systems analysis, design and systems thinking. [2025]"
+title: "FIT9138. Information systems analysis, design and systems thinking. [2025]"
 collection: teaching
 type: "Postgraduate course"
 permalink: /teaching/2025-feb-teaching
