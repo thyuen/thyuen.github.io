@@ -1,5 +1,5 @@
 ---
-title: "FITE7409 Blockchain and cryptocurrency. [2022-2023]"
+title: "FITE7409. Blockchain and cryptocurrency. [2022-2023]"
 collection: teaching
 type: "Postgraduate course"
 permalink: /teaching/2023-sep-teaching-1
