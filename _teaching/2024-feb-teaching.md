@@ -1,5 +1,5 @@
 ---
-title: "FIT9130 - Systems analysis and design. [2024]"
+title: "FIT9130. Systems analysis and design. [2024]"
 collection: teaching
 type: "Postgraduate course"
 permalink: /teaching/2024-feb-teaching
