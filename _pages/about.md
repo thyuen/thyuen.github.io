@@ -8,13 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-Dr Tsz Hon Yuen is an associate professor in the [Department of Software Systems & Cybersecurity](https://www.monash.edu/it/ssc) at [Monash University](https://www.monash.edu/). Before joining Monash, he was an assistant professor in the [Department of Computer Science](https://www.cs.hku.hk/) at the [University of Hong Kong](https://www.hku.hk/). He worked as a senior researcher of Shield Lab at Huawei Singapore Research Centre and was a member of the Cryptography Expert Group in Huawei. He received his Ph.D. degree from the University of Wollongong in 2010 and worked as a post-doctoral fellow in the University of Hong Kong before joining Huawei. 
+Dr Tsz Hon Yuen is an associate professor in the [Department of Software Systems & Cybersecurity](https://www.monash.edu/it/ssc) at [Monash University](https://www.monash.edu/). He currently serves as the Director of Research in the department, and also the Associate Director (Technology) of the Fintech Impact Lab of Monash University. 
+
+Before joining Monash, he was an assistant professor in the [Department of Computer Science](https://www.cs.hku.hk/) at the [University of Hong Kong](https://www.hku.hk/). He worked as a senior researcher of Shield Lab at Huawei Singapore Research Centre and was a member of the Cryptography Expert Group in Huawei. He received his Ph.D. degree from the University of Wollongong in 2010 and worked as a post-doctoral fellow in the University of Hong Kong before joining Huawei. 
 
 Research Interest
 ======
 His current research interests include cryptography (such as public key encryption, digital signatures, identity-based encryption), privacy-preserving protocols (such as anonymous credential, zero-knowledge proof system) and blockchain (such as consensus, payment channel, confidential transactions). 
 
-He has published more than 50 technical papers, including top journals and conferences such as IEEE TC, Crypto, Eurocrypt, CCS, IEEE S&P, USENIX. He received the Best Paper Award in ESORICS 2014. He is also active in industrial fields with more than 10 patents. He has served as the PC members and reviewers for many security and cryptography conferences, workshops and journals.
+He has published more than 50 technical papers, including top journals and conferences such as IEEE TC, Crypto, Eurocrypt, CCS, IEEE S&P, USENIX. He received the Best Paper Award in ESORICS 2014. He is also active in industrial fields with more than 10 patents. He has served as the PC members and reviewers for many security and cryptography conferences, workshops and journals. He is the founding member of the Central Bank Digital Currency Expert Group of the Hong Kong Monetary Authority.
 
 Contact
 =====
