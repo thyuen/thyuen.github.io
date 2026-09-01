@@ -141,6 +141,8 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - vendor
+  - vendor/bundle
 keep_files:
   - .git
   - .svn
@@ -218,7 +220,7 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: single
+      layout: publication
       author_profile: true
       share: true
       comments: true

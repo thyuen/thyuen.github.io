@@ -1,0 +1,29 @@
+{% assign item = include.item %}
+{% assign paperurl = item.paperurl | default: '' | strip %}
+{% assign doi = item.doi | default: '' | strip %}
+{% assign preprinturl = item.preprinturl | default: '' | strip %}
+{% assign codeurl = item.codeurl | default: '' | strip %}
+{% assign projecturl = item.projecturl | default: '' | strip %}
+{% assign slidesurl = item.slidesurl | default: '' | strip %}
+{% assign bibtexurl = item.bibtexurl | default: '' | strip %}
+{% assign link_count = 0 %}
+
+{% if doi != '' %}
+  {% if doi contains '://' %}
+    {% assign doi_url = doi %}
+  {% else %}
+    {% assign doi_url = doi | prepend: 'https://doi.org/' %}
+  {% endif %}
+{% endif %}
+
+{% if paperurl != '' or doi != '' or preprinturl != '' or codeurl != '' or projecturl != '' or slidesurl != '' or bibtexurl != '' %}
+  <p class="page__meta publication-links">
+    {% if paperurl != '' %}<a href="{{ paperurl | escape }}" target="_blank" rel="noopener noreferrer">Paper</a>{% assign link_count = link_count | plus: 1 %}{% endif %}
+    {% if doi != '' %}{% if link_count > 0 %}<span aria-hidden="true"> · </span>{% endif %}<a href="{{ doi_url | escape }}" target="_blank" rel="noopener noreferrer">DOI</a>{% assign link_count = link_count | plus: 1 %}{% endif %}
+    {% if preprinturl != '' %}{% if link_count > 0 %}<span aria-hidden="true"> · </span>{% endif %}<a href="{{ preprinturl | escape }}" target="_blank" rel="noopener noreferrer">Preprint</a>{% assign link_count = link_count | plus: 1 %}{% endif %}
+    {% if codeurl != '' %}{% if link_count > 0 %}<span aria-hidden="true"> · </span>{% endif %}<a href="{{ codeurl | escape }}" target="_blank" rel="noopener noreferrer">Code</a>{% assign link_count = link_count | plus: 1 %}{% endif %}
+    {% if projecturl != '' %}{% if link_count > 0 %}<span aria-hidden="true"> · </span>{% endif %}<a href="{{ projecturl | escape }}" target="_blank" rel="noopener noreferrer">Project</a>{% assign link_count = link_count | plus: 1 %}{% endif %}
+    {% if slidesurl != '' %}{% if link_count > 0 %}<span aria-hidden="true"> · </span>{% endif %}<a href="{{ slidesurl | escape }}" target="_blank" rel="noopener noreferrer">Slides</a>{% assign link_count = link_count | plus: 1 %}{% endif %}
+    {% if bibtexurl != '' %}{% if link_count > 0 %}<span aria-hidden="true"> · </span>{% endif %}<a href="{{ bibtexurl | escape }}" target="_blank" rel="noopener noreferrer">BibTeX</a>{% endif %}
+  </p>
+{% endif %}
