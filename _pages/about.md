@@ -19,9 +19,9 @@ Research Interest
 ======
 Dr Yuen's research focuses on:
 
-  - Cryptography: public-key encryption, digital signatures, and zero-knowledge proofs.
-  - Privacy-enhancing technologies: anonymous credentials, private set intersection, and privacy-preserving data sharing and computation.
-  - Blockchain and digital finance: payment channels, confidential transactions, and security for digital assets.
+  - **Cryptography**: public-key encryption, digital signatures, and zero-knowledge proofs.
+  - **Privacy-enhancing technologies**: anonymous credentials, private set intersection, and privacy-preserving data sharing and computation.
+  - **Blockchain and digital finance**: payment channels, confidential transactions, and security for digital assets.
 
 His current research interests include cryptography (such as public key encryption, digital signatures, identity-based encryption), privacy-preserving protocols (such as anonymous credential, zero-knowledge proof system) and blockchain (such as consensus, payment channel, confidential transactions). 
 
