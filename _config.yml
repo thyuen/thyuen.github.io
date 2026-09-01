@@ -83,7 +83,7 @@ author:
   avatar           : "1630a.jpg"
   bio              : "Associate Professor in the Department of Software Systems and Cybersecurity, Monash University"
   location         : "Australia"
-  employer         : "https://research.monash.edu/en/persons/john-yuen/"
+  employer         : # "https://research.monash.edu/en/persons/john-yuen/"
   googlescholar    : "http://scholar.google.com/citations?user=aVLlo-gAAAAJ&hl=en"
   email            :
   uri              : "https://dblp.org/pid/10/6625.html"
