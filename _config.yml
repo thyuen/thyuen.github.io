@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Dr. Tsz Hon Yuen, John"
 title_separator          : "-"
 name                     : &name "Dr. Tsz Hon Yuen, John"
-description              : &description "Associate Professor in the Department of Software Systems and Cybersecurity, Monash University"
+description              : &description "Associate Professor, Monash University"
 url                      : https://thyuen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "thyuen/thyuen.github.io"
@@ -81,12 +81,12 @@ analytics:
 author:
   name             : "Dr. Tsz Hon Yuen, John"
   avatar           : "1630a.jpg"
-  bio              : "Associate Professor in the Department of Software Systems and Cybersecurity, Monash University"
-  location         : "Australia"
-  employer         : # "https://research.monash.edu/en/persons/john-yuen/"
+  bio              : "Associate Professor, Monash University"
+  location         : "Melbourne, Australia"
+  employer         : "Monash University" 
   googlescholar    : "http://scholar.google.com/citations?user=aVLlo-gAAAAJ&hl=en"
-  email            :
-  uri              : "https://dblp.org/pid/10/6625.html"
+  email            : "john.tszhonyuen@monash.edu"
+  uri              : "https://research.monash.edu/en/persons/john-yuen/"
   bitbucket        :
   codepen          :
   dribbble         :
