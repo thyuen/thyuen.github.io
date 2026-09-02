@@ -237,8 +237,8 @@ th {
   color: var(--site-navy) !important;
 }
 
-/* Clearly distinguish ordinary content links across the site */
-.page__content a:not(.btn) {
+/* Archive-layout pages, including the CV */
+.archive a:not(.btn) {
   color: #007c91 !important;
   font-weight: 600;
   text-decoration: underline !important;
@@ -246,14 +246,14 @@ th {
   text-underline-offset: 3px;
 }
 
-.page__content a:not(.btn):hover,
-.page__content a:not(.btn):focus {
+.archive a:not(.btn):hover,
+.archive a:not(.btn):focus {
   color: #005d70 !important;
   text-decoration-thickness: 2px !important;
 }
 
-/* Retain the compact CV section-navigation pills */
-.cv-nav a {
+/* Keep the CV section navigation as pill-style controls */
+.archive .cv-nav a {
   color: var(--site-navy) !important;
   text-decoration: none !important;
 }
