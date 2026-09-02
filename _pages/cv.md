@@ -110,17 +110,28 @@ For the complete publication list, please see the [Publications](/publications/)
 For further presentations, please see the [Talks](/talks/) page.
 
 ## Patents {#patents}
-- 崔韩东, 陈钧贤, 阮子瀚, 康鑫, 朱成康. “零知识证明的方法、系统、装置、终端和存储介质.” China Patent CN117201025A, 31 May 2022.
-- T. H. Yuen, S. We, W. He. “Data Processing Method, Related Apparatus, and Blockchain System.” Singapore Patent PCT/SG2018/050200, 26 April 2018.
-- R. Hu, F. Jiang, T. H. Yuen, Y. Jiang, H. Zhou. “Data Access Rights Control Method and Device.” US Patent Application No. 201810224356.1, 19 March 2018. Also in PCT/CN2019/075719. **Granted.**
-- T. H. Yuen, S. Wu, W. He. “Transaction Processing Method and Related Equipment.” Singapore Patent PCT/SG2017/050654, 28 December 2017. Also in PCT WO/2019/132767. **Granted.**
-- S. Wu, T. H. Yuen, H. Lei. “Heterogeneous Identity-Based Interactive System and Method.” Singapore Patent PCT/SG2017/050566, 10 November 2017. Also in PCT WO/2019/093963. **Granted.**
-- T. H. Yuen, S. M. Chow, W. F. Lai. “Searchable Encryption with Hybrid Index.” Singapore Patent 10201706106Q, 26 July 2017. Also in PCT WO2019022669A1. **Granted.**
-- B. Smyth, E. Quaglia, T. H. Yuen. “A Wireless Communication Device for Communication in a Wireless Communication Network.” EU Patent EP3379766B1, 20 March 2017. Also in US20200015073A1 and PCT/CN2018/079457. **Granted.**
-- T. H. Yuen, Z. Zhang. “System and Method for Performing Cryptographic Operations.” Singapore Patent 10201609472S, 11 November 2016. Also in PCT WO2018088958A1.
-- H. Cui, R. H. Deng, Y. Li, G. Wang, T. H. Yuen. “Data Processing Method and Apparatus.” China Patent 201610640301.X, 5 August 2016. Also in PCT/SG2017/050114 and PCT/SG2017/050328. **Granted.**
-- T. H. Yuen, S. Wu. “Method of Obfuscating Data.” Singapore Patent 10201502401X, 26 March 2015. Also in PCT WO2016153430A1 and [US20170091485](http://www.freepatentsonline.com/y2017/0091485.html). **Granted.**
-- T. H. Yuen. “System and Method for Searching a Symmetrically Encrypted Database for Conjunctive Keywords.” Singapore Patent 10201407705S, 18 November 2014. Also in [US 20160140179](https://patents.justia.com/patent/20160140179). **Granted.**
+- Filed patents:
+  - 崔韩东, 邓锐波, 李颖杰, 王国林, 阮子汉. “数据处理方法、装置、电子设备及存储介质”. [Chinese Patent CN117201025A](https://patents.google.com/patent/CN117201025A/zh).
+
+  - T. H. Yuen, S. We, W. He. “Data Processing Method, Related Apparatus, and Blockchain System”. Singapore Patent PCT/SG2018/050200, 26 Apr 2018. [Google Patents record](https://patents.google.com/patent/WO2019209168A2/en).
+
+  - R. Hu, F. Jiang, T. H. Yuen, Y. Jiang, H. Zhou. “Data Access Rights Control Method and Device”. US Patent Application No. 201810224356.1, 19 Mar 2018. (Also in PCT/CN2019/075719.) Granted.
+
+  - T. H. Yuen, S. Wu, W. He. “Transaction Processing Method and Related Equipment”. Singapore Patent PCT/SG2017/050654, 28 Dec 2017. (Also in [WO2019132767A1](https://patents.google.com/patent/WO2019132767A1/en).) Granted.
+
+  - S. Wu, T. H. Yuen, H. Lei. “Heterogeneous Identity-Based Interactive System and Method”. Singapore Patent PCT/SG2017/050566, 10 Nov 2017. (Also in [WO2019093963A1](https://patents.google.com/patent/WO2019093963A1/en).) Granted.
+
+  - T. H. Yuen, S. M. Chow, W. F. Lai. “Searchable Encryption with Hybrid Index”. [Singapore Patent SG10201706106QA](https://patents.google.com/patent/SG10201706106QA/en), 26 Jul 2017. (Also in PCT WO2019022669A1.) Granted.
+
+  - B. Smyth, E. Quaglia, T. H. Yuen. “A Wireless Communication Device for Communication in a Wireless Communication Network”. EU Patent EP3379766B1, 20 Mar 2017. [Google Patents record](https://patents.google.com/patent/EP3379766A1/en). Granted.
+
+  - T. H. Yuen, Z. Zhang. “System and Method for Performing Cryptographic Operations”. Singapore Patent **10201609472S**, 11 Nov 2016. (Also in [WO2018088958A1](https://patents.google.com/patent/WO2018088958A1/en).)
+
+  - H. Cui, R. H. Deng, Y. Li, G. Wang, T. H. Yuen. “Data Processing Method and Apparatus”. China Patent 201610640301.X, 5 Aug 2016. (Also in [US10868670B2](https://patents.google.com/patent/US10868670B2/en), PCT/SG2017/050114, and PCT/SG2017/050328.) Granted.
+
+  - T. H. Yuen, S. Wu. “Method of Obfuscating Data”. Singapore Patent 10201502401X, 26 Mar 2015. (Also in [WO2016153430A1](https://patents.google.com/patent/WO2016153430A1/en).) Granted.
+
+  - T. H. Yuen. “System and Method for Searching a Symmetrically Encrypted Database for Conjunctive Keywords”. Singapore Patent 10201407705S, 18 Nov 2014. (Also in [US10282448B2](https://patents.google.com/patent/US10282448B2/en).) Granted.
 
 ## Awards
 
