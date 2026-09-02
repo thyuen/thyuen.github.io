@@ -1,10 +1,14 @@
----
-title: "A Critique on Decentralized Finance from a Social, Political, and Economic Perspective."
+ ---
+title: "A Critique on Decentralized Finance from a Social, Political, and Economic Perspective"
 collection: publications
+category: manuscripts
 permalink: /publication/2023-03-blockchain
-excerpt: ''
-date: Mar 25, 2023
-venue: 'Blockchain. Volume 1, March 2023'
-paperurl: 'https://elspub.com/papers/j/1597124912186978304'
-citation: 'Zi Zheng Fong Hu, Tsz Hon Yuen: A Critique on Decentralized Finance from a Social, Political, and Economic Perspective. Blockchain 2023(1): 0006.'
+excerpt: 'A critical examination of decentralized finance and its social, political, and economic assumptions.'
+date: 2023-03-25
+venue: 'Blockchain, vol. 1, no. 1'
+paperurl: 'https://research.monash.edu/files/584550909/584550660_oa.pdf'
+doi: '10.55092/blockchain20230006'
+citation: 'Zizheng Fonghu and Tsz Hon Yuen. “A Critique on Decentralized Finance from a Social, Political, and Economic Perspective.” <i>Blockchain</i>, vol. 1, no. 1, article 0006, 2023. https://doi.org/10.55092/blockchain20230006'
 ---
+
+This perspective article examines decentralized finance through social, political, and economic lenses. It critiques the fundamental values and assumptions of DeFi, including whether its model of personal financial freedom can provide a suitable alternative to the current financial system.
