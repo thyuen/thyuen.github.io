@@ -23,7 +23,7 @@ Last updated: September 2026
 
 [Department of Software Systems and Cybersecurity](https://www.monash.edu/it/ssc), Monash University
 
-- Director of Research, Department of Software Systems and Cybersecurity
+- Deputy Director of Master of Cybersecurity, Department of Software Systems and Cybersecurity
 - Associate Director (Technology), Fintech Impact Lab
 - Teaching undergraduate and postgraduate courses in software systems and cybersecurity
 - Research areas: public-key cryptography, privacy-enhancing technologies, blockchain security, and digital finance
