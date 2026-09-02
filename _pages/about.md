@@ -25,6 +25,20 @@ Dr Yuen's research focuses on:
 
 His work has appeared in leading venues including CRYPTO, EUROCRYPT, ASIACRYPT, ACM CCS, IEEE Symposium on Security and Privacy, USENIX Security, and IEEE Transactions on Computers. He received the Best Paper Award at ESORICS 2014 and is an inventor on more than ten patents. He has served on programme committees and as a reviewer for leading security and cryptography conferences and journals. He is also a founding member of the Central Bank Digital Currency Expert Group of the Hong Kong Monetary Authority.
 
+Featured publications
+======
+
+- [BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs Supporting Variable Amounts](/publication/2023-05-sp/)  
+  *IEEE Symposium on Security and Privacy 2023*
+
+- [O-Ring and K-Star: Efficient Multi-party Private Set Intersection](/publication/2024-08-usenix/)  
+  *USENIX Security 2024*
+
+- [Scalable zkSNARKs for Matrix Computations: A Generic Framework for Verifiable Deep Learning](/publication/2025-12-asiacrypt/)  
+  *ASIACRYPT 2025*
+
+For the complete list, see [Publications](/publications/).
+
 Opportunities
 ======
 
