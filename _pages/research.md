@@ -20,10 +20,10 @@ I design and analyse cryptographic primitives that provide strong security guara
 
 ### Representative work
 
-- [Identity-Based Encryption Resilient to Continual Auxiliary Leakage](/publication/2012-04-EC/)
-- [DualRing: Generic Construction of Ring Signatures with Efficient Instantiations](/publication/2021-08-crypto/)
-- [Compact Zero-Knowledge Proofs for Threshold ECDSA with Trustless Setup](/publication/2021-05-pkc/)
-- [Scalable zkSNARKs for Matrix Computations](/publication/2025-12-asiacrypt/)
+- [DualRing: Generic Construction of Ring Signatures with Efficient Instantiations](/publication/2021-08-crypto/) — CRYPTO 2021
+- [Efficient Online-friendly Two-Party ECDSA Signature](/publication/2021-11-ccs/) — ACM CCS 2021
+- [BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs Supporting Variable Amounts](/publication/2023-05-sp/) — IEEE Symposium on Security and Privacy 2023
+- [Scalable zkSNARKs for Matrix Computations: A Generic Framework for Verifiable Deep Learning](/publication/2025-12-asiacrypt/) — ASIACRYPT 2025
 
 ## Privacy-Preserving Data Systems
 
@@ -38,10 +38,10 @@ I develop privacy-preserving protocols that enable data to be searched, shared, 
 
 ### Representative work
 
-- [Non-Interactive Multi-Client Searchable Encryption: Realization and Implementation](/publication/2020-02-TDSC/)
-- [GCD-Filter: Private Set Intersection Without Encryption](/publication/2022-10-wasa/)
-- [DIDO+: Data Provenance from Restricted TLS 1.3 Websites with Selective Disclosure](/publication/2025-07-tdsc/)
-- [Efficient Unbalanced Private Set Intersection Cardinality](/publication/2023-08-usenix/)
+- [Efficient Unbalanced Private Set Intersection Cardinality and User-friendly Privacy-preserving Contact Tracing](/publication/2023-08-usenix/) — USENIX Security 2023
+- [O-Ring and K-Star: Efficient Multi-party Private Set Intersection](/publication/2024-08-usenix/) — USENIX Security 2024
+- [Efficient Private Set Intersection by Utilizing Oblivious Transfer Extension](/publication/2025-08-asiaccs/) — AsiaCCS 2025
+- [Scalable zkSNARKs for Matrix Computations: A Generic Framework for Verifiable Deep Learning](/publication/2025-12-asiacrypt/) — ASIACRYPT 2025
 
 ## Blockchain Security and Digital Finance
 
@@ -56,8 +56,7 @@ I study security, privacy, and accountability in blockchain systems and digital-
 
 ### Representative work
 
-- [RingCT 3.0 for Blockchain Confidential Transaction](/publication/2019-05-eprint/)
-- [PAChain: Private, Authenticated and Auditable Consortium Blockchain](/publication/2019-10-CANS/)
-- [BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs](/publication/2023-05-sp/)
-- [SuccinCT: Succinct Confidential Transaction for Miner Privacy](/publication/2026-09-esorics/)
-- [HedgeSwap: Universal Hedged Atomic Swaps Against Griefing Attacks](/publication/2026-09-esorics2/)
+- [RingCT 2.0: A Compact Accumulator-Based Protocol for Blockchain Cryptocurrency Monero](/publication/2017-09-RingCT/) — ESORICS 2017
+- [RingCT 3.0 for Blockchain Confidential Transaction: Shorter Size and Stronger Security](/publication/2019-05-eprint/) — Financial Cryptography 2020
+- [BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs Supporting Variable Amounts](/publication/2023-05-sp/) — IEEE Symposium on Security and Privacy 2023
+- [HedgeSwap: Universal Hedged Atomic Swaps Against Griefing Attacks](/publication/2026-09-esorics2/) — ESORICS 2026
