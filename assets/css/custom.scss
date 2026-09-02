@@ -237,9 +237,8 @@ th {
   color: var(--site-navy) !important;
 }
 
-/* Make all links on the CV page clearly identifiable */
-.cv-page .page__content a,
-.cv-page .cv-nav a {
+/* CV: make content links clearly identifiable */
+.layout--archive .page__content a {
   color: #007c91;
   font-weight: 600;
   text-decoration: underline;
@@ -247,10 +246,14 @@ th {
   text-underline-offset: 3px;
 }
 
-.cv-page .page__content a:hover,
-.cv-page .page__content a:focus,
-.cv-page .cv-nav a:hover,
-.cv-page .cv-nav a:focus {
+.layout--archive .page__content a:hover,
+.layout--archive .page__content a:focus {
   color: #005d70;
   text-decoration-thickness: 2px;
+}
+
+/* Keep the CV section navigation as visible pill-style navigation */
+.layout--archive .cv-nav a {
+  color: var(--site-navy) !important;
+  text-decoration: none !important;
 }
