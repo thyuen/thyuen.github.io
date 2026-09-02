@@ -1,4 +1,4 @@
- ---
+---
 title: "A Critique on Decentralized Finance from a Social, Political, and Economic Perspective"
 collection: publications
 category: manuscripts
