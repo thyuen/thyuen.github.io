@@ -206,3 +206,33 @@ th {
   background: #eaf7fa;
   color: var(--site-navy) !important;
 }
+
+.pub-year-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 1.5rem 0 2.25rem;
+  color: var(--site-muted);
+  font-size: 0.94rem;
+}
+
+.pub-year-nav a {
+  display: inline-block;
+  margin-left: 0;
+  padding: 0.38rem 0.7rem;
+  border: 1px solid var(--site-border);
+  border-radius: 999px;
+  background: var(--site-surface);
+  color: var(--site-navy) !important;
+  font-weight: 650;
+  line-height: 1.2;
+  text-decoration: none !important;
+}
+
+.pub-year-nav a:hover,
+.pub-year-nav a:focus {
+  border-color: var(--site-cyan);
+  background: #eaf7fa;
+  color: var(--site-navy) !important;
+}
