@@ -179,3 +179,30 @@ th {
   margin-top: 0.35em;
   margin-bottom: 0;
 }
+
+.cv-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.cv-nav a {
+  display: inline-block;
+  padding: 0.38rem 0.7rem;
+  border: 1px solid var(--site-border);
+  border-radius: 999px;
+  background: var(--site-surface);
+  color: var(--site-navy) !important;
+  font-size: 0.9rem;
+  font-weight: 650;
+  line-height: 1.2;
+  text-decoration: none !important;
+}
+
+.cv-nav a:hover,
+.cv-nav a:focus {
+  border-color: var(--site-cyan);
+  background: #eaf7fa;
+  color: var(--site-navy) !important;
+}
