@@ -11,13 +11,22 @@ redirect_from:
 
 Last updated: September 2026
 
-## Education
+<nav class="pub-year-nav" aria-label="CV sections">
+  <a href="#education">Education</a>
+  <a href="#academic-and-professional-appointments">Appointments</a>
+  <a href="#research-projects">Projects</a>
+  <a href="#selected-publications">Publications</a>
+  <a href="#patents">Patents</a>
+  <a href="#service-and-leadership">Service</a>
+</nav>
+
+## Education {#education}
 
 - PhD, University of Wollongong, 2010
 - MPhil in Information Engineering, The Chinese University of Hong Kong, 2006
 - BEng in Information Engineering, The Chinese University of Hong Kong, 2004
 
-## Academic and professional appointments
+## Academic and professional appointments {#academic-and-professional-appointments}
 
 ### Associate Professor, February 2024 – present
 
@@ -49,7 +58,7 @@ The University of Hong Kong
 
 - Research areas: identity-based encryption, attribute-based encryption, leakage-resilient cryptography, and anonymous credentials
 
-## Research projects
+## Research projects {#research-projects}
 
 - [Implications of Cryptocurrencies for the Pacific](https://research.monash.edu/en/projects/implications-of-cryptocurrencies-for-the-pacific/)  
   Primary Chief Investigator, 2026–2027
@@ -63,7 +72,7 @@ The University of Hong Kong
 - [More Efficient and Scalable Post-Quantum Multi-Signatures](https://research.monash.edu/en/projects/more-efficient-and-scalable-post-quantum-multi-signatures/)  
   Chief Investigator, 2024–2025
 
-## Selected publications
+## Selected publications {#selected-publications}
 
 - [Identity-Based Encryption Resilient to Continual Auxiliary Leakage](/publication/2012-04-EC/)  
   *EUROCRYPT 2012*
@@ -104,7 +113,7 @@ For the complete publication list, please see the [Publications](/publications/)
 
 For further presentations, please see the [Talks](/talks/) page.
 
-## Patents
+## Patents {#patents}
 
 - T. H. Yuen, S. We, W. He. “Data Processing Method, Related Apparatus, and Blockchain System.” Singapore Patent PCT/SG2018/050200, 26 April 2018.
 - R. Hu, F. Jiang, T. H. Yuen, Y. Jiang, H. Zhou. “Data Access Rights Control Method and Device.” US Patent Application No. 201810224356.1, 19 March 2018. Also in PCT/CN2019/075719. **Granted.**
@@ -125,7 +134,7 @@ For further presentations, please see the [Talks](/talks/) page.
 - **Best Paper Award**, European Symposium on Research in Computer Security (ESORICS), 2014  
   *Identity-Based Encryption with Post-Challenge Auxiliary Inputs for Secure Cloud Applications and Sensor Networks*
 
-## Service and leadership
+## Service and leadership {#service-and-leadership}
 
 ### Journal editorial service
 
