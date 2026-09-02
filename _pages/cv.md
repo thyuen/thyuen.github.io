@@ -11,14 +11,14 @@ redirect_from:
 
 Last updated: September 2026
 
-<nav class="pub-year-nav" aria-label="CV sections">
+<div class="cv-nav" aria-label="CV sections">
   <a href="#education">Education</a>
   <a href="#academic-and-professional-appointments">Appointments</a>
   <a href="#research-projects">Projects</a>
   <a href="#selected-publications">Publications</a>
   <a href="#patents">Patents</a>
   <a href="#service-and-leadership">Service</a>
-</nav>
+</div>
 
 ## Education {#education}
 
