@@ -25,7 +25,8 @@ Dr Yuen's research focuses on:
 
 His work has appeared in leading venues including CRYPTO, EUROCRYPT, ASIACRYPT, ACM CCS, IEEE Symposium on Security and Privacy, USENIX Security, and IEEE Transactions on Computers. He received the Best Paper Award at ESORICS 2014 and is an inventor on more than ten patents. He has served on programme committees and as a reviewer for leading security and cryptography conferences and journals. He is also a founding member of the Central Bank Digital Currency Expert Group of the Hong Kong Monetary Authority.
 
-## Opportunities
+Opportunities
+======
 
 I am always interested in working with motivated students and collaborators on cryptography, privacy-enhancing technologies, blockchain security, and digital finance.
 
