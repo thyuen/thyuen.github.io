@@ -236,3 +236,24 @@ th {
   background: #eaf7fa;
   color: var(--site-navy) !important;
 }
+
+/* Make public patent links visibly identifiable */
+.page__content a[href*="patents.google.com"] {
+  color: #007c91;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+
+.page__content a[href*="patents.google.com"]:hover,
+.page__content a[href*="patents.google.com"]:focus {
+  color: #005d70;
+  text-decoration-thickness: 2px;
+}
+
+.page__content a[href*="patents.google.com"]:focus-visible {
+  outline: 2px solid #007c91;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
