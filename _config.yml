@@ -55,7 +55,6 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
-# Social Sharing
 twitter:
   username               :
   card                   : summary_large_image
@@ -67,10 +66,13 @@ og_image                 : "/images/site-preview.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
+  type: Person
+  name: "Dr Tsz Hon Yuen (John Yuen)"
+  links:
+    - "https://github.com/thyuen"
+    - "https://scholar.google.com/citations?user=aVLlo-gAAAAJ&hl=en"
+    - "https://orcid.org/0000-0002-0629-6792"
+    - "https://dblp.org/pid/10/6625.html"
 
 # Analytics
 analytics:
@@ -86,7 +88,7 @@ author:
   bio              : "Associate Professor, Monash University"
   location         : "Melbourne, Australia"
   employer         : "Monash University" 
-  googlescholar    : "http://scholar.google.com/citations?user=aVLlo-gAAAAJ&hl=en"
+  googlescholar: "https://scholar.google.com/citations?user=aVLlo-gAAAAJ&hl=en"
   email            : "john.tszhonyuen@monash.edu"
   uri              : "https://research.monash.edu/en/persons/john-yuen/"
   bitbucket        :
