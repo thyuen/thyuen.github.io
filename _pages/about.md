@@ -23,9 +23,13 @@ Dr Yuen's research focuses on:
   - **Privacy-enhancing technologies**: anonymous credentials, private set intersection, and privacy-preserving data sharing and computation.
   - **Blockchain and digital finance**: payment channels, confidential transactions, and security for digital assets.
 
-His current research interests include cryptography (such as public key encryption, digital signatures, identity-based encryption), privacy-preserving protocols (such as anonymous credential, zero-knowledge proof system) and blockchain (such as consensus, payment channel, confidential transactions). 
-
 His work has appeared in leading venues including CRYPTO, EUROCRYPT, ASIACRYPT, ACM CCS, IEEE Symposium on Security and Privacy, USENIX Security, and IEEE Transactions on Computers. He received the Best Paper Award at ESORICS 2014 and is an inventor on more than ten patents. He has served on programme committees and as a reviewer for leading security and cryptography conferences and journals. He is also a founding member of the Central Bank Digital Currency Expert Group of the Hong Kong Monetary Authority.
+
+## Opportunities
+
+I am always interested in working with motivated students and collaborators on cryptography, privacy-enhancing technologies, blockchain security, and digital finance.
+
+Prospective PhD students, postdoctoral researchers, and research collaborators are welcome to email me with a brief introduction, CV, and a description of relevant research interests.
 
 Contact
 =====
