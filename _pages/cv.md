@@ -36,6 +36,7 @@ Last updated: September 2026
 - Associate Director (Technology), Fintech Impact Lab
 - Teaching undergraduate and postgraduate courses in software systems and cybersecurity
 - Research areas: public-key cryptography, privacy-enhancing technologies, blockchain security, and digital finance
+- Supervision experience includes PhD and Master’s research students in cryptography, privacy, blockchain security, and digital finance.
 
 ### Assistant Professor, July 2018 – December 2023
 
@@ -43,6 +44,7 @@ Last updated: September 2026
 
 - Taught undergraduate and postgraduate courses in computer science and financial technology
 - Research areas: public-key cryptography, blockchain, and privacy
+- Supervision experience includes PhD and Master’s research students in cryptography, privacy, blockchain security, and digital finance.- Supervised seven PhD students and more than ten Master’s students
 
 ### Senior Researcher, December 2013 – July 2018
 
@@ -58,19 +60,13 @@ The University of Hong Kong
 
 - Research areas: identity-based encryption, attribute-based encryption, leakage-resilient cryptography, and anonymous credentials
 
-## Research projects {#research-projects}
 
-- [Implications of Cryptocurrencies for the Pacific](https://research.monash.edu/en/projects/implications-of-cryptocurrencies-for-the-pacific/)  
-  Primary Chief Investigator, 2026–2027
+## Selected grants and funding {#research-projects}
 
-- [NextGen Blockchain Privacy & Security: Practical and Quantum-Safe Solutions](https://research.monash.edu/en/projects/nextgen-blockchain-privacy-security-practical-and-quantum-safe-so/)  
-  Chief Investigator, ARC-funded, 2026–2029
-
-- [Efficient Weighted Threshold Signature](https://research.monash.edu/en/projects/efficient-weighted-threshold-signature/)  
-  Chief Investigator, 2025–2026
-
-- [More Efficient and Scalable Post-Quantum Multi-Signatures](https://research.monash.edu/en/projects/more-efficient-and-scalable-post-quantum-multi-signatures/)  
-  Chief Investigator, 2024–2025
+- Australian Research Council. *NextGen Blockchain Privacy & Security: Practical and Quantum-Safe Solutions*. Chief Investigator, 2026–2029.
+- Department of Foreign Affairs and Trade, Australia. *Building Cyber Resilience in Fiji: Securing the Nation’s Digital Future*. Chief Investigator, 2026–2027.
+- Hong Kong Institute for Monetary and Financial Research. *CBDC Technologies and Their Role in Monetary Policy*. Principal Investigator, 2026.
+- Ethereum Foundation. *More Efficient and Scalable Post-Quantum Multi-Signatures*. Chief Investigator, 2024–2025.
 
 ## Selected publications {#selected-publications}
 
@@ -114,7 +110,7 @@ For the complete publication list, please see the [Publications](/publications/)
 For further presentations, please see the [Talks](/talks/) page.
 
 ## Patents {#patents}
-
+- 崔韩东, 陈钧贤, 阮子瀚, 康鑫, 朱成康. “零知识证明的方法、系统、装置、终端和存储介质.” China Patent CN117201025A, 31 May 2022.
 - T. H. Yuen, S. We, W. He. “Data Processing Method, Related Apparatus, and Blockchain System.” Singapore Patent PCT/SG2018/050200, 26 April 2018.
 - R. Hu, F. Jiang, T. H. Yuen, Y. Jiang, H. Zhou. “Data Access Rights Control Method and Device.” US Patent Application No. 201810224356.1, 19 March 2018. Also in PCT/CN2019/075719. **Granted.**
 - T. H. Yuen, S. Wu, W. He. “Transaction Processing Method and Related Equipment.” Singapore Patent PCT/SG2017/050654, 28 December 2017. Also in PCT WO/2019/132767. **Granted.**
@@ -135,6 +131,9 @@ For further presentations, please see the [Talks](/talks/) page.
   *Identity-Based Encryption with Post-Challenge Auxiliary Inputs for Secure Cloud Applications and Sensor Networks*
 
 ## Service and leadership {#service-and-leadership}
+
+- Founding member, Hong Kong Monetary Authority Central Bank Digital Currency Expert Group, 2023–present
+- Co-chair, IEEE TEMS Blockchain and Distributed Ledger Technologies Technical Committee Special Interest Group
 
 ### Journal editorial service
 
