@@ -152,7 +152,7 @@ For further presentations, please see the [Talks](/talks/) page.
 
 ### Conference leadership
 
-- Programme Chair, International Conference on Provable and Practical Security (ProvSec), 2019
+- Programme Chair, International Conference on Provable and Practical Security (ProvSec), 2019, 2026
 - Publication Chair, ACM Asia Conference on Computer and Communications Security (AsiaCCS), 2021
 - Publication Chair, International Conference on Information and Communication Security (ICICS), 2012
 - Track Chair, IEEE International Conference on Distributed Ledger Technologies (ICDLT), 2025
