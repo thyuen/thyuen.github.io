@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dr. Tsz Hon Yuen, John"
+title                    : "Dr Tsz Hon Yuen (John Yuen)"
 title_separator          : "-"
-name                     : &name "Dr. Tsz Hon Yuen, John"
+name                     : &name "Dr Tsz Hon Yuen (John Yuen)"
 description              : &description "Associate Professor, Monash University"
 url                      : https://thyuen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -81,7 +81,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dr. Tsz Hon Yuen, John"
+  name             : "Dr Tsz Hon Yuen (John Yuen)"
   avatar           : "1630a.jpg"
   bio              : "Associate Professor, Monash University"
   location         : "Melbourne, Australia"
