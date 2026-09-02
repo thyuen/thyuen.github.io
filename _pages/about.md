@@ -32,6 +32,14 @@ I am always interested in working with motivated students and collaborators on c
 
 Prospective PhD students, postdoctoral researchers, and research collaborators are welcome to email me with a brief introduction, CV, and a description of relevant research interests.
 
+News
+======
+
+- **Sep 2026:** Two papers, *SuccinCT* and *HedgeSwap*, will appear at ESORICS 2026.
+- **Aug 2026:** *FlowShield* will appear at ICDM 2026.
+- **Jul 2026:** *OblivSage* will appear at ACISP 2026.
+- **Jun 2026:** *GumSwap* will appear at ICDCS 2026.
+
 Contact
 =====
 Address: Room 2.25, Woodside Building for Technology and Design, Monash University, Clayton VIC 3168, Australia
