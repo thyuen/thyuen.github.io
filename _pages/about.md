@@ -29,6 +29,35 @@ His work has appeared in leading venues including CRYPTO, EUROCRYPT, ASIACRYPT, 
 
 His career-long impact (2025) and single-year impact (2023–2025) are included in the [Stanford/Elsevier World’s Top 2% Scientists](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/8), a citation-indicator database prepared by the Ioannidis team using Scopus data and published by Elsevier.
 
+Featured publications
+======
+
+- [BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs Supporting Variable Amounts](/publication/2023-05-sp/)  
+  *IEEE Symposium on Security and Privacy 2023*
+
+- [O-Ring and K-Star: Efficient Multi-party Private Set Intersection](/publication/2024-08-usenix/)  
+  *USENIX Security 2024*
+
+- [Scalable zkSNARKs for Matrix Computations: A Generic Framework for Verifiable Deep Learning](/publication/2025-12-asiacrypt/)  
+  *ASIACRYPT 2025*
+
+For the complete list, see [Publications](/publications/).
+
+Opportunities
+======
+
+I am always interested in working with motivated students and collaborators on cryptography, privacy-enhancing technologies, blockchain security, and digital finance.
+
+Prospective PhD students, postdoctoral researchers, and research collaborators are welcome to email me with a brief introduction, CV, and a description of relevant research interests.
+
+News
+======
+
+- **Sep 2026:** Two papers, *SuccinCT* and *HedgeSwap*, will appear at ESORICS 2026.
+- **Aug 2026:** *FlowShield* will appear at ICDM 2026.
+- **Jul 2026:** *OblivSage* will appear at ACISP 2026.
+- **Jun 2026:** *GumSwap* will appear at ICDCS 2026.
+
 Contact
 =====
 Address: Room 2.25, Woodside Building for Technology and Design, Monash University, Clayton VIC 3168, Australia
