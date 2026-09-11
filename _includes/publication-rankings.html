@@ -1,0 +1,10 @@
+{% assign item = include.item %}
+{% assign core_rank = item.core_rank | default: '' | strip %}
+{% assign ccf_rank = item.ccf_rank | default: '' | strip %}
+
+{% if core_rank != '' or ccf_rank != '' %}
+  <p class="page__meta publication-rankings">
+    {% if core_rank != '' %}<span class="page__taxonomy-item">CORE {{ core_rank }}</span>{% endif %}
+    {% if ccf_rank != '' %}<span class="page__taxonomy-item">CCF {{ ccf_rank }}</span>{% endif %}
+  </p>
+{% endif %}
