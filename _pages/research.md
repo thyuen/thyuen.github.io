@@ -27,14 +27,9 @@ My research develops practical cryptographic and privacy-enhancing technologies 
 
   <ul>
     <li>
-      <a href="/publication/2012-04-EC/">
-        Identity-Based Encryption Resilient to Continual Auxiliary Leakage
-      </a> — EUROCRYPT 2012
-    </li>
-    <li>
-      <a href="/publication/2021-08-crypto/">
-        DualRing: Generic Construction of Ring Signatures with Efficient Instantiations
-      </a> — CRYPTO 2021
+      <a href="/publication/2025-12-asiacrypt/">
+        Scalable zkSNARKs for Matrix Computations: A Generic Framework for Verifiable Deep Learning
+      </a> — ASIACRYPT 2025
     </li>
     <li>
       <a href="/publication/2021-11-ccs/">
@@ -42,9 +37,14 @@ My research develops practical cryptographic and privacy-enhancing technologies 
       </a> — ACM CCS 2021
     </li>
     <li>
-      <a href="/publication/2025-12-asiacrypt/">
-        Scalable zkSNARKs for Matrix Computations: A Generic Framework for Verifiable Deep Learning
-      </a> — ASIACRYPT 2025
+      <a href="/publication/2021-08-crypto/">
+        DualRing: Generic Construction of Ring Signatures with Efficient Instantiations
+      </a> — CRYPTO 2021
+    </li>
+    <li>
+      <a href="/publication/2012-04-EC/">
+        Identity-Based Encryption Resilient to Continual Auxiliary Leakage
+      </a> — EUROCRYPT 2012
     </li>
   </ul>
 </div>
@@ -69,9 +69,9 @@ My research develops practical cryptographic and privacy-enhancing technologies 
 
   <ul>
     <li>
-      <a href="/publication/2023-08-usenix/">
-        Efficient Unbalanced Private Set Intersection Cardinality and User-friendly Privacy-preserving Contact Tracing
-      </a> — USENIX Security 2023
+      <a href="/publication/2025-08-asiaccs/">
+        Efficient Private Set Intersection by Utilizing Oblivious Transfer Extension
+      </a> — AsiaCCS 2025
     </li>
     <li>
       <a href="/publication/2024-08-usenix/">
@@ -79,9 +79,9 @@ My research develops practical cryptographic and privacy-enhancing technologies 
       </a> — USENIX Security 2024
     </li>
     <li>
-      <a href="/publication/2025-08-asiaccs/">
-        Efficient Private Set Intersection by Utilizing Oblivious Transfer Extension
-      </a> — AsiaCCS 2025
+      <a href="/publication/2023-08-usenix/">
+        Efficient Unbalanced Private Set Intersection Cardinality and User-friendly Privacy-preserving Contact Tracing
+      </a> — USENIX Security 2023
     </li>
   </ul>
 </div>
@@ -106,14 +106,9 @@ My research develops practical cryptographic and privacy-enhancing technologies 
 
   <ul>
     <li>
-      <a href="/publication/2019-05-eprint/">
-        RingCT 3.0 for Blockchain Confidential Transaction: Shorter Size and Stronger Security
-      </a> — Financial Cryptography 2020
-    </li>
-    <li>
-      <a href="/publication/2023-05-sp/">
-        BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs Supporting Variable Amounts
-      </a> — IEEE Symposium on Security and Privacy 2023
+      <a href="/publication/2026-11-icdm/">
+        FlowShield: cryptocurrency anti-money laundering with transaction semantics parsing and fund flow tracking
+      </a> — IEEE ICDM 2026
     </li>
     <li>
       <a href="/publication/2026-09-esorics/">
@@ -124,6 +119,16 @@ My research develops practical cryptographic and privacy-enhancing technologies 
       <a href="/publication/2026-09-esorics2/">
         HedgeSwap: Universal Hedged Atomic Swaps Against Griefing Attacks
       </a> — ESORICS 2026
+    </li>
+    <li>
+      <a href="/publication/2023-05-sp/">
+        BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs Supporting Variable Amounts
+      </a> — IEEE Symposium on Security and Privacy 2023
+    </li>
+    <li>
+      <a href="/publication/2019-05-eprint/">
+        RingCT 3.0 for Blockchain Confidential Transaction: Shorter Size and Stronger Security
+      </a> — Financial Cryptography 2020
     </li>
   </ul>
 </div>

@@ -70,26 +70,38 @@ The University of Hong Kong
 
 ## Selected publications {#selected-publications}
 
-- [Identity-Based Encryption Resilient to Continual Auxiliary Leakage](/publication/2012-04-EC/)  
-  *EUROCRYPT 2012*
+- [FlowShield: cryptocurrency anti-money laundering with transaction semantics parsing and fund flow tracking](/publication/2026-11-icdm/)  
+  *IEEE ICDM 2026*
 
-- [DualRing: Generic Construction of Ring Signatures with Efficient Instantiations](/publication/2021-08-crypto/)  
-  *CRYPTO 2021*
-
-- [Efficient Online-friendly Two-Party ECDSA Signature](/publication/2021-11-ccs/)  
-  *ACM CCS 2021*
-
-- [BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs Supporting Variable Amounts](/publication/2023-05-sp/)  
-  *IEEE Symposium on Security and Privacy 2023*
-
-- [Efficient Unbalanced Private Set Intersection Cardinality and User-friendly Privacy-preserving Contact Tracing](/publication/2023-08-usenix/)  
-  *USENIX Security 2023*
+- [Posterior Security: Anonymity and Message Hiding of Standard Signatures](/publication/2025-10-ccs/)  
+  *ACM CCS 2025*
 
 - [O-Ring and K-Star: Efficient Multi-party Private Set Intersection](/publication/2024-08-usenix/)  
   *USENIX Security 2024*
 
-- [Posterior Security: Anonymity and Message Hiding of Standard Signatures](/publication/2025-10-ccs/)  
-  *ACM CCS 2025*
+- [Efficient Multiplicative-to-Additive Function from Joye-Libert Cryptosystem and Its Application to Threshold ECDSA](/publication/2023-11-ccs/)  
+  *ACM CCS 2023*
+
+- [Efficient Unbalanced Private Set Intersection Cardinality and User-friendly Privacy-preserving Contact Tracing](/publication/2023-08-usenix/)  
+  *USENIX Security 2023*
+
+- [BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs Supporting Variable Amounts](/publication/2023-05-sp/)  
+  *IEEE Symposium on Security and Privacy 2023*
+
+- [Efficient Online-friendly Two-Party ECDSA Signature](/publication/2021-11-ccs/)  
+  *ACM CCS 2021*
+
+- [DualRing: Generic Construction of Ring Signatures with Efficient Instantiations](/publication/2021-08-crypto/)  
+  *CRYPTO 2021*
+
+- [A General Framework for Secure Sharing of Personal Health Records in Cloud System](/publication/2017-12-02-ABE/)  
+  *Journal of Computer and System Sciences, 2017*
+
+- [k-Times Attribute-Based Anonymous Access Control for Cloud Computing](/publication/2015-10-AC/)  
+  *IEEE Transactions on Computers, 2015*
+
+- [Identity-Based Encryption Resilient to Continual Auxiliary Leakage](/publication/2012-04-EC/)  
+  *EUROCRYPT 2012*
 
 For the complete publication list, please see the [Publications](/publications/) page.
 
@@ -133,6 +145,8 @@ For further presentations, please see the [Talks](/talks/) page.
   - T. H. Yuen. “System and Method for Searching a Symmetrically Encrypted Database for Conjunctive Keywords”. Singapore Patent 10201407705S, 18 Nov 2014. (Also in [US10282448B2](https://patents.google.com/patent/US10282448B2/en).) Granted.
 
 ## Awards
+
+- [**Stanford/Elsevier World’s Top 2% Scientists**](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/8), career-long impact (2025) and single-year impact (2023–2025).
 
 - **Best Paper Award**, International Congress on Information and Communication Technology (ICICT), 2018  
   *Security-Mediated Certificateless Undeniable Signature Scheme*
