@@ -39,7 +39,9 @@ algorithms used in Huawei's products, including mobile devices, network devices,
 Selected Publications
 ======
   <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
+    {% if post.core_rank == 'A*' or post.ccf_rank == 'A' %}
+      {% include archive-single-cv.html %}
+    {% endif %}
   {% endfor %}</ul>
 
   
