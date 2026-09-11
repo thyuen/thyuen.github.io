@@ -23,36 +23,11 @@ Dr Yuen's research focuses on:
   - **Privacy-enhancing technologies**: anonymous credentials, private set intersection, and privacy-preserving data sharing and computation.
   - **Blockchain and digital finance**: payment channels, confidential transactions, and security for digital assets.
 
+His current research interests include cryptography (such as public key encryption, digital signatures, identity-based encryption), privacy-preserving protocols (such as anonymous credential, zero-knowledge proof system) and blockchain (such as consensus, payment channel, confidential transactions). 
+
 His work has appeared in leading venues including CRYPTO, EUROCRYPT, ASIACRYPT, ACM CCS, IEEE Symposium on Security and Privacy, USENIX Security, and IEEE Transactions on Computers. He received the Best Paper Award at ESORICS 2014 and is an inventor on more than ten patents. He has served on programme committees and as a reviewer for leading security and cryptography conferences and journals. He is also a founding member of the Central Bank Digital Currency Expert Group of the Hong Kong Monetary Authority.
 
-Featured publications
-======
-
-- [BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs Supporting Variable Amounts](/publication/2023-05-sp/)  
-  *IEEE Symposium on Security and Privacy 2023*
-
-- [O-Ring and K-Star: Efficient Multi-party Private Set Intersection](/publication/2024-08-usenix/)  
-  *USENIX Security 2024*
-
-- [Scalable zkSNARKs for Matrix Computations: A Generic Framework for Verifiable Deep Learning](/publication/2025-12-asiacrypt/)  
-  *ASIACRYPT 2025*
-
-For the complete list, see [Publications](/publications/).
-
-Opportunities
-======
-
-I am always interested in working with motivated students and collaborators on cryptography, privacy-enhancing technologies, blockchain security, and digital finance.
-
-Prospective PhD students, postdoctoral researchers, and research collaborators are welcome to email me with a brief introduction, CV, and a description of relevant research interests.
-
-News
-======
-
-- **Sep 2026:** Two papers, *SuccinCT* and *HedgeSwap*, will appear at ESORICS 2026.
-- **Aug 2026:** *FlowShield* will appear at ICDM 2026.
-- **Jul 2026:** *OblivSage* will appear at ACISP 2026.
-- **Jun 2026:** *GumSwap* will appear at ICDCS 2026.
+His career-long impact (2025) and single-year impact (2023–2025) are included in the [Stanford/Elsevier World’s Top 2% Scientists](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/8), a citation-indicator database prepared by the Ioannidis team using Scopus data and published by Elsevier.
 
 Contact
 =====
