@@ -8,5 +8,6 @@ venue: 'The 21st IEEE International Conference on Trust, Security and Privacy in
 core_rank: 'B'
 ccf_rank: 'C'
 paperurl: 'https://ieeexplore.ieee.org/document/10063697'
-citation: 'Cailing Cai, Tsz Hon Yuen and Siu Ming Yiu: Hash Proof System With Auxiliary Inputs and Its Application. In IEEE Trustcom 2022, 52-59.'
+doi: '10.1109/TrustCom56396.2022.00018'
+citation: 'Cailing Cai, Tsz Hon Yuen, and Siu-Ming Yiu. “Hash Proof System with Auxiliary Inputs and Its Application.” In 2022 IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom), pp. 52–59, 2022.'
 ---
