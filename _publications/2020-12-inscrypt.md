@@ -6,6 +6,6 @@ excerpt: ''
 date: Dec 11, 2020
 venue: 'The 16th International Conference on Information Security and Cryptology (Inscrypt 2020), Guangzhou, China, December 11-14, 2020'
 ccf_rank: 'C'
-paperurl: 'https://doi.org/10.1007/978-3-030-71852-7_19'
-citation: 'Cailing Cai and Tsz Hon Yuen: LPPRS: New Location Privacy Preserving Schemes Based on Ring Signature over Mobile Social Networks. In Inscrypt 2020: 288-303.'
+doi: '10.1007/978-3-030-71852-7_19'
+citation: 'Cailing Cai, Tsz Hon Yuen, Handong Cui, Mingli Wu, and Siu-Ming Yiu. “LPPRS: New Location Privacy Preserving Schemes Based on Ring Signature over Mobile Social Networks.” In Information Security and Cryptology, Lecture Notes in Computer Science, vol. 12612, pp. 288–303, 2021.'
 ---
