@@ -3,6 +3,13 @@ layout: default
 ---
 
 {% include base_path %}
+{% assign paperurl = page.paperurl | default: '' | strip %}
+{% assign doi = page.doi | default: '' | strip %}
+{% assign preprinturl = page.preprinturl | default: '' | strip %}
+{% assign codeurl = page.codeurl | default: '' | strip %}
+{% assign projecturl = page.projecturl | default: '' | strip %}
+{% assign slidesurl = page.slidesurl | default: '' | strip %}
+{% assign bibtexurl = page.bibtexurl | default: '' | strip %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
@@ -41,17 +48,38 @@ layout: default
             <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
           {% endif %}
 
-          {% if page.citation %}
-            <p>Recommended citation: {{ page.citation }} </p>
-          {% endif %}
         </header>
       {% endunless %}
 
+      {% if page.excerpt and page.excerpt != "" %}
+        <section class="publication-summary" aria-labelledby="publication-overview">
+          <h2 id="publication-overview" class="publication-section-label">Overview</h2>
+          <p>{{ page.excerpt | escape }}</p>
+        </section>
+      {% endif %}
+
+      {% if page.citation %}
+        <section class="publication-citation" aria-labelledby="publication-citation-label">
+          <h2 id="publication-citation-label" class="publication-section-label">Cite</h2>
+          <p>{{ page.citation }}</p>
+        </section>
+      {% endif %}
+
+      {% if paperurl != '' or doi != '' or preprinturl != '' or codeurl != '' or projecturl != '' or slidesurl != '' or bibtexurl != '' %}
+        <section class="publication-resources" aria-labelledby="publication-resources-label">
+          <h2 id="publication-resources-label" class="publication-section-label">Resources</h2>
+          {% include publication-links.html item=page %}
+        </section>
+      {% endif %}
+
       <section class="page__content" itemprop="text">
         {{ content }}
-        {% include publication-links.html item=page %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
+
+      <nav class="publication-back" aria-label="Publication navigation">
+        <a href="{{ '/publications/' | relative_url }}">← All publications</a>
+      </nav>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
