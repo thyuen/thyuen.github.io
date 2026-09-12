@@ -1,0 +1,34 @@
+{% include base_path %}
+{% assign item = include.item | default: post %}
+{% assign summary = item.excerpt | default: '' | strip %}
+{% assign resource_url = item.link | default: '' | strip %}
+
+<article class="talk-card" itemscope itemtype="http://schema.org/CreativeWork">
+  <h2 class="talk-card__title" itemprop="headline">
+    {% if item.link %}
+      <a href="{{ item.link }}">{{ item.title }}</a>
+    {% else %}
+      <a href="{{ base_path }}{{ item.url }}" rel="permalink">{{ item.title }}</a>
+    {% endif %}
+  </h2>
+
+  {% if item.venue or item.date or item.type or item.location %}
+    <div class="talk-card__meta">
+      {% if item.venue %}<span class="talk-card__venue">{{ item.venue }}</span>{% endif %}
+      {% if item.date %}<time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: '%B %d, %Y' }}</time>{% endif %}
+      {% if item.type %}<span>{{ item.type }}</span>{% endif %}
+      {% if item.location %}<span>{{ item.location }}</span>{% endif %}
+    </div>
+  {% endif %}
+
+  {% if summary != '' %}
+    <div class="talk-card__summary" itemprop="description">{{ summary | markdownify }}</div>
+  {% endif %}
+
+  {% if resource_url != '' %}
+    <div class="talk-card__resources">
+      <a href="{{ resource_url }}" target="_blank" rel="noopener noreferrer">Resources</a>
+      <a href="{{ base_path }}{{ item.url }}" rel="permalink">Details</a>
+    </div>
+  {% endif %}
+</article>
