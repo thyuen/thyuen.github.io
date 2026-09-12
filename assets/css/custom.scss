@@ -134,6 +134,94 @@ a:focus {
   color: var(--site-muted);
 }
 
+/* Publications page cards */
+.publication-card {
+  margin: 0.85rem 0;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--site-border);
+  border-radius: 8px;
+  background: #fbfcfd;
+}
+
+.publication-card__title {
+  margin: 0;
+  color: var(--site-navy);
+  font-size: 1.16rem;
+  line-height: 1.35;
+}
+
+.publication-card__title a {
+  color: var(--site-navy);
+  text-decoration-thickness: 1.25px;
+}
+
+.publication-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.5rem;
+  align-items: center;
+  margin-top: 0.35rem;
+  color: var(--site-muted);
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+.publication-card__venue {
+  font-style: italic;
+}
+
+.publication-card__year,
+.publication-card__ranking {
+  white-space: nowrap;
+}
+
+.publication-card__year::before,
+.publication-card__ranking::before {
+  margin-right: 0.5rem;
+  color: #a5afb9;
+  content: "•";
+}
+
+.publication-card__summary {
+  margin-top: 0.55rem;
+  color: var(--site-muted);
+  font-size: 0.94rem;
+  line-height: 1.58;
+}
+
+.publication-card__summary p {
+  margin: 0;
+}
+
+.publication-card__citation {
+  display: flex;
+  gap: 0.45rem;
+  margin-top: 0.7rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid #e6ebf0;
+  color: #53616d;
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+.publication-card__citation-label {
+  flex: 0 0 auto;
+  color: var(--site-navy);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.publication-card__links {
+  margin-top: 0.5rem;
+}
+
+.publication-card__links .publication-links {
+  margin: 0;
+  font-size: 0.87rem;
+}
+
 /* Tables */
 table {
   border-color: var(--site-border);
@@ -158,6 +246,24 @@ th {
   .research-card,
   .project-card {
     padding: 1.1em 1.15em;
+  }
+
+  .publication-card {
+    margin: 0.7rem 0;
+    padding: 0.9rem;
+  }
+
+  .publication-card__title {
+    font-size: 1.08rem;
+  }
+
+  .publication-card__citation {
+    display: block;
+  }
+
+  .publication-card__citation-label {
+    display: block;
+    margin-bottom: 0.15rem;
   }
 }
 
@@ -256,4 +362,14 @@ th {
 .archive .cv-nav a {
   color: var(--site-navy) !important;
   text-decoration: none !important;
+}
+
+/* Keep publication-card titles distinct from archive link styling. */
+.archive .publication-card__title a {
+  color: var(--site-navy) !important;
+}
+
+.archive .publication-card__title a:hover,
+.archive .publication-card__title a:focus {
+  color: var(--site-cyan) !important;
 }
