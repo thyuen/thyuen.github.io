@@ -2,7 +2,7 @@
 title: "Threshold Ring Signatures: From DualRing to the t+1 Rings."
 collection: publications
 permalink: /publication/2024-09-provsec
-excerpt: ''
+excerpt: "A threshold ring-signature construction that extends DualRing to support threshold signing with anonymity among ring members."
 date: September 25, 2024
 venue: 'The 18th International Conference on Provable and Practical Security (ProvSec 2024), Gold Coast, Australia. September 25-27, 2024'
 core_rank: 'C'

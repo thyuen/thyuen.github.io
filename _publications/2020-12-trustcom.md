@@ -2,7 +2,7 @@
 title: "Address-based Signature."
 collection: publications
 permalink: /publication/2020-12-trustcom
-excerpt: ''
+excerpt: "An address-based signature scheme for authenticating identities and messages through address-derived cryptographic mechanisms."
 date: Dec 29, 2020
 venue: 'The 19th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (IEEE TrustCom 2020) Guangzhou, China, December 29, 2020 - January 1, 2021'
 core_rank: 'B'

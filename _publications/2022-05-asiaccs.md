@@ -2,7 +2,7 @@
 title: "Tight Leakage-Resilient Identity-based Encryption under Multi-challenge Setting."
 collection: publications
 permalink: /publication/2022-05-asiaccs
-excerpt: ''
+excerpt: "A leakage-resilient identity-based encryption scheme that supports security in the multi-challenge setting."
 date: May 30, 2022
 venue: 'The ACM Asia Conference on Computer and Communications Security, (AsiaCCS 2022) Nagasaki, Japan, May 30 - June 3, 2022'
 core_rank: 'A'

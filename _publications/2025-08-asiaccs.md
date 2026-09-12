@@ -2,7 +2,7 @@
 title: "Efficient Private Set Intersection by Utilizing Oblivious Transfer Extension."
 collection: publications
 permalink: /publication/2025-08-asiaccs
-excerpt: ''
+excerpt: "An efficient private set-intersection protocol that uses oblivious-transfer extension to reduce the cost of secure set matching."
 date: Augest 25, 2025
 venue: 'ACM Asia Conference on Computer and Communications Security (ASIA CCS ’25). August 25–29, 2025, Hanoi, Vietnam'
 core_rank: 'A'

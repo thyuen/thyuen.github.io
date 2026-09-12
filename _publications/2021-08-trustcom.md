@@ -2,7 +2,7 @@
 title: "Security on SM2 and GOST Signatures against Related Key Attacks."
 collection: publications
 permalink: /publication/2021-08-trustcom
-excerpt: ''
+excerpt: "An analysis of SM2 and GOST signature schemes under related-key attacks, with corresponding security considerations."
 date: August 18, 2021
 venue: 'The 20th IEEE International Conference on Trust, Security and Privacy in Computing and Communications, (TrustCom 2021) Shenyang, China, August 18-20, 2021'
 core_rank: 'B'
