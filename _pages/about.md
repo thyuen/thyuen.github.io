@@ -33,16 +33,20 @@ Before joining Monash, Dr Yuen was an Assistant Professor in the [Department of 
     <p>His career-long impact (2025) and single-year impact (2023–2025) are included in the <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/8">Stanford/Elsevier World’s Top 2% Scientists</a>, a citation-indicator database prepared by the Ioannidis team using Scopus data and published by Elsevier.</p>
   </section>
 
-  {% assign featured_blindhub = site.publications | where: "permalink", "/publication/2023-05-sp" | first %}
-  {% assign featured_oring = site.publications | where: "permalink", "/publication/2024-08-usenix" | first %}
-  {% assign featured_zksnarks = site.publications | where: "permalink", "/publication/2025-12-asiacrypt" | first %}
+  {% assign featured_publications = site.publications | sort: "date" | reverse %}
 
   <section class="home-section home-section--featured" aria-labelledby="featured-publications">
     <h2 id="featured-publications">Featured publications</h2>
     <div class="home-featured-publications">
-      {% if featured_blindhub %}<article class="home-featured-publication"><h3><a href="{{ featured_blindhub.url | relative_url }}">{{ featured_blindhub.title }}</a></h3>{% if featured_blindhub.venue %}<p class="home-featured-publication__venue">{{ featured_blindhub.venue }}</p>{% endif %}{% if featured_blindhub.excerpt and featured_blindhub.excerpt != "" %}<p>{{ featured_blindhub.excerpt | escape }}</p>{% endif %}</article>{% endif %}
-      {% if featured_oring %}<article class="home-featured-publication"><h3><a href="{{ featured_oring.url | relative_url }}">{{ featured_oring.title }}</a></h3>{% if featured_oring.venue %}<p class="home-featured-publication__venue">{{ featured_oring.venue }}</p>{% endif %}{% if featured_oring.excerpt and featured_oring.excerpt != "" %}<p>{{ featured_oring.excerpt | escape }}</p>{% endif %}</article>{% endif %}
-      {% if featured_zksnarks %}<article class="home-featured-publication"><h3><a href="{{ featured_zksnarks.url | relative_url }}">{{ featured_zksnarks.title }}</a></h3>{% if featured_zksnarks.venue %}<p class="home-featured-publication__venue">{{ featured_zksnarks.venue }}</p>{% endif %}{% if featured_zksnarks.excerpt and featured_zksnarks.excerpt != "" %}<p>{{ featured_zksnarks.excerpt | escape }}</p>{% endif %}</article>{% endif %}
+      {% for publication in featured_publications %}
+        {% if publication.permalink == "/publication/2023-05-sp" or publication.permalink == "/publication/2024-08-usenix" or publication.permalink == "/publication/2025-12-asiacrypt" %}
+          <article class="home-featured-publication">
+            <h3><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3>
+            {% if publication.venue %}<p class="home-featured-publication__venue">{{ publication.venue }}</p>{% endif %}
+            {% if publication.excerpt and publication.excerpt != "" %}<p>{{ publication.excerpt | escape }}</p>{% endif %}
+          </article>
+        {% endif %}
+      {% endfor %}
     </div>
     <p class="home-section__more">For the complete list, see <a href="{{ '/publications/' | relative_url }}">Publications</a>.</p>
   </section>
@@ -56,16 +60,16 @@ Before joining Monash, Dr Yuen was an Assistant Professor in the [Department of 
   <section class="home-section home-section--news" aria-labelledby="news">
     <h2 id="news">News</h2>
     <ul class="home-news">
-      <li><time class="home-news__date" datetime="2026-09">Sep 2026</time><span>Two papers, <em>SuccinCT</em> and <em>HedgeSwap</em>, will appear at ESORICS 2026.</span></li>
-      <li><time class="home-news__date" datetime="2026-08">Aug 2026</time><span><em>FlowShield</em> will appear at ICDM 2026.</span></li>
-      <li><time class="home-news__date" datetime="2026-07">Jul 2026</time><span><em>OblivSage</em> will appear at ACISP 2026.</span></li>
-      <li><time class="home-news__date" datetime="2026-06">Jun 2026</time><span><em>GumSwap</em> will appear at ICDCS 2026.</span></li>
+      <li><time class="home-news__date" datetime="2026-09">Sep 2026:</time> <span>Two papers, <em>SuccinCT</em> and <em>HedgeSwap</em>, will appear at ESORICS 2026.</span></li>
+      <li><time class="home-news__date" datetime="2026-08">Aug 2026:</time> <span><em>FlowShield</em> will appear at ICDM 2026.</span></li>
+      <li><time class="home-news__date" datetime="2026-07">Jul 2026:</time> <span><em>OblivSage</em> will appear at ACISP 2026.</span></li>
+      <li><time class="home-news__date" datetime="2026-06">Jun 2026:</time> <span><em>GumSwap</em> will appear at ICDCS 2026.</span></li>
     </ul>
   </section>
+
+  <section class="home-section home-section--contact" aria-labelledby="contact">
+    <h2 id="contact">Contact</h2>
+    <address class="home-contact">Room 2.25, Alan Finkel Building for Technology and Design, Monash University, Clayton VIC 3168, Australia</address>
+    <p class="home-contact">Email: john dot tszhonyuen at monash dot edu</p>
+  </section>
 </div>
-
-Contact
-=====
-Address: Room 2.25, Woodside Building for Technology and Design, Monash University, Clayton VIC 3168, Australia
-
-Email: john dot tszhonyuen at monash dot edu
