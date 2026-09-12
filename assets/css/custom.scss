@@ -557,6 +557,83 @@ th {
   line-height: 1.55;
 }
 
+/* Talks and teaching pages */
+.talk-card,
+.teaching-card {
+  margin: 0.8rem 0;
+  padding: 0.95rem 1.05rem;
+  border: 1px solid var(--site-border);
+  border-radius: 8px;
+  background: #fbfcfd;
+}
+
+.talk-card__title,
+.teaching-card__title {
+  margin: 0;
+  color: var(--site-navy);
+  font-size: 1.08rem;
+  line-height: 1.38;
+}
+
+.talk-card__title a,
+.teaching-card__title a {
+  color: var(--site-navy);
+  text-decoration-thickness: 1.25px;
+}
+
+.talk-card__title a:hover,
+.talk-card__title a:focus,
+.teaching-card__title a:hover,
+.teaching-card__title a:focus {
+  color: var(--site-cyan);
+}
+
+.talk-card__meta,
+.teaching-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.22rem 0.5rem;
+  margin-top: 0.35rem;
+  color: var(--site-muted);
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+.talk-card__meta > *:not(:first-child)::before,
+.teaching-card__meta > *:not(:first-child)::before {
+  margin-right: 0.5rem;
+  color: #a5afb9;
+  content: "•";
+}
+
+.talk-card__venue {
+  font-style: italic;
+}
+
+.talk-card__summary,
+.teaching-card__summary {
+  margin-top: 0.55rem;
+  color: var(--site-muted);
+  font-size: 0.93rem;
+  line-height: 1.58;
+}
+
+.talk-card__summary p,
+.teaching-card__summary p {
+  margin: 0;
+}
+
+.talk-card__resources,
+.teaching-card__resources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.75rem;
+  margin-top: 0.65rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid #e6ebf0;
+  font-size: 0.86rem;
+}
+
 /* CV page */
 .cv-page {
   margin: 1.5rem 0;
@@ -566,7 +643,8 @@ th {
   margin-top: 0;
 }
 
-.cv-appointment {
+.cv-appointment,
+.cv-appointment-card {
   margin: 0.7rem 0;
   padding: 0.9rem 1rem;
   border: 1px solid var(--site-border);
@@ -603,13 +681,15 @@ th {
   margin: 0.65rem 0 0;
 }
 
-.cv-list-cards {
+.cv-list-cards,
+.cv-card-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.cv-list-cards li {
+.cv-list-cards li,
+.cv-compact-card {
   margin: 0.55rem 0;
   padding: 0.7rem 0.8rem;
   border: 1px solid #e1e8ef;
@@ -684,7 +764,10 @@ th {
 
 @media (max-width: 48em) {
   .home .home-section,
-  .cv-appointment {
+  .cv-appointment,
+  .cv-appointment-card,
+  .talk-card,
+  .teaching-card {
     padding: 0.9rem;
   }
 
@@ -702,5 +785,15 @@ th {
     margin-top: 0.35rem !important;
     text-align: left;
     white-space: normal;
+  }
+
+  .talk-card__meta,
+  .teaching-card__meta {
+    display: block;
+  }
+
+  .talk-card__meta > *:not(:first-child)::before,
+  .teaching-card__meta > *:not(:first-child)::before {
+    margin-right: 0.35rem;
   }
 }
