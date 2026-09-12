@@ -3,6 +3,7 @@ title: "Hash Proof System with Auxilary Inputs and Its Applications."
 collection: publications
 permalink: /publication/2022-10-trustcom
 redirect_to: /publication/2022-12-trustcom/
+hide_from_publications: true
 excerpt: ''
 date: October 28, 2022
 venue: 'The 21th IEEE International Conference on Trust, Security and Privacy in Computing and Communications, (IEEE TrustCom 2022) Wuhan, China, October 28-30, 2022'
