@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2021-08-trustcom
 excerpt: ''
 date: August 18, 2021
-venue: 'The 20th IEEE International Conference On Trust, Security and Privacy in Computing and Communications, (Trustcom 2021) Shenyang, Chinaa, August 18-20, 2021'
+venue: 'The 20th IEEE International Conference on Trust, Security and Privacy in Computing and Communications, (TrustCom 2021) Shenyang, China, August 18-20, 2021'
 core_rank: 'B'
 ccf_rank: 'C'
 doi: '10.1109/TrustCom53373.2021.00038'
