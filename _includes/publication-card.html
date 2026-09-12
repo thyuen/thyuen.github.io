@@ -1,0 +1,47 @@
+{% include base_path %}
+{% assign item = include.item | default: post %}
+{% assign summary = item.excerpt | default: '' | strip %}
+{% assign citation = item.citation | default: '' | strip %}
+{% assign core_rank = item.core_rank | default: '' | strip %}
+{% assign ccf_rank = item.ccf_rank | default: '' | strip %}
+{% assign core_year = item.core_year | default: '2026' | strip %}
+{% assign ccf_year = item.ccf_year | default: '2026' | strip %}
+{% assign paperurl = item.paperurl | default: '' | strip %}
+{% assign doi = item.doi | default: '' | strip %}
+{% assign preprinturl = item.preprinturl | default: '' | strip %}
+{% assign codeurl = item.codeurl | default: '' | strip %}
+{% assign projecturl = item.projecturl | default: '' | strip %}
+{% assign slidesurl = item.slidesurl | default: '' | strip %}
+{% assign bibtexurl = item.bibtexurl | default: '' | strip %}
+
+<article class="publication-card" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <h3 class="publication-card__title" itemprop="headline">
+    <a href="{{ base_path }}{{ item.url }}" rel="permalink">{{ item.title }}</a>
+  </h3>
+
+  {% if item.venue or item.date or core_rank != '' or ccf_rank != '' %}
+    <div class="publication-card__meta">
+      {% if item.venue %}<span class="publication-card__venue">{{ item.venue }}</span>{% endif %}
+      {% if item.date %}<span class="publication-card__year">{{ item.date | date: "%Y" }}</span>{% endif %}
+      {% if core_rank != '' %}<span class="publication-card__ranking">CORE {{ core_year }} {{ core_rank }}</span>{% endif %}
+      {% if ccf_rank != '' %}<span class="publication-card__ranking">CCF {{ ccf_year }} {{ ccf_rank }}</span>{% endif %}
+    </div>
+  {% endif %}
+
+  {% if summary != '' %}
+    <div class="publication-card__summary" itemprop="description">{{ summary | markdownify }}</div>
+  {% endif %}
+
+  {% if citation != '' %}
+    <div class="publication-card__citation">
+      <span class="publication-card__citation-label">Cite</span>
+      <span>{{ citation }}</span>
+    </div>
+  {% endif %}
+
+  {% if paperurl != '' or doi != '' or preprinturl != '' or codeurl != '' or projecturl != '' or slidesurl != '' or bibtexurl != '' %}
+    <div class="publication-card__links">
+      {% include publication-links.html item=item %}
+    </div>
+  {% endif %}
+</article>
