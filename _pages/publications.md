@@ -29,11 +29,13 @@ author_profile: true
   <h2 id="{{ year }}">{{ year }}</h2>
 
   {% for post in site.publications reversed %}
-    {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% unless post.hide_from_publications %}
+      {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 
-    {% if post_year == year %}
-      {% include archive-single.html %}
-    {% endif %}
+      {% if post_year == year %}
+        {% include publication-card.html %}
+      {% endif %}
+    {% endunless %}
   {% endfor %}
 {% endfor %}
 
@@ -43,15 +45,17 @@ author_profile: true
   {% assign previous_year = "" %}
 
   {% for post in site.publications reversed %}
-    {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% unless post.hide_from_publications %}
+      {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 
-    {% unless recent_years contains post_year %}
-      {% if post_year != previous_year %}
-        <h3 id="year-{{ post_year }}">{{ post_year }}</h3>
-        {% assign previous_year = post_year %}
-      {% endif %}
+      {% unless recent_years contains post_year %}
+        {% if post_year != previous_year %}
+          <h3 id="year-{{ post_year }}">{{ post_year }}</h3>
+          {% assign previous_year = post_year %}
+        {% endif %}
 
-      {% include archive-single.html %}
+        {% include publication-card.html %}
+      {% endunless %}
     {% endunless %}
   {% endfor %}
 </details>
