@@ -1,47 +1,68 @@
 
 
-# # Leaflet cluster map of talk locations
+# Leaflet cluster map of talk locations.
 #
-# (c) 2016-2017 R. Stuart Geiger, released under the MIT license
-#
-# Run this from the _talks/ directory, which contains .md files of all your talks. 
-# This scrapes the location YAML field from each .md file, geolocates it with
-# geopy/Nominatim, and uses the getorg library to output data, HTML,
-# and Javascript for a standalone cluster map.
-#
-# Requires: glob, getorg, geopy
+# The previous AcademicPages helper depended on unmaintained getorg/geopy APIs
+# and no longer runs in the local environment. This drop-in generator retains
+# the existing Leaflet map and org-locations.js output, using only Python's
+# standard library and Nominatim's public geocoding endpoint.
 
-import glob
-import getorg
-from geopy import Nominatim
+from __future__ import annotations
 
-g = glob.glob("*.md")
-
-
-geocoder = Nominatim()
-location_dict = {}
-location = ""
-permalink = ""
-title = ""
+import json
+import re
+import time
+from pathlib import Path
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
 
 
-for file in g:
-    with open(file, 'r') as f:
-        lines = f.read()
-        if lines.find('location: "') > 1:
-            loc_start = lines.find('location: "') + 11
-            lines_trim = lines[loc_start:]
-            loc_end = lines_trim.find('"')
-            location = lines_trim[:loc_end]
-                            
-           
-        location_dict[location] = geocoder.geocode(location)
-        print(location, "\n", location_dict[location])
+ROOT = Path(__file__).resolve().parent
+TALKS_DIRECTORY = ROOT / "_talks"
+OUTPUT = ROOT / "talkmap" / "org-locations.js"
+LOCATION_PATTERN = re.compile(r'^location:\s*["\']?(.+?)["\']?\s*$', re.MULTILINE)
 
 
-m = getorg.orgmap.create_map_obj()
-getorg.orgmap.output_html_cluster_map(location_dict, folder_name="../talkmap", hashed_usernames=False)
+def talk_locations() -> list[str]:
+    locations = []
+    for talk_file in sorted(TALKS_DIRECTORY.glob("*.md")):
+        match = LOCATION_PATTERN.search(talk_file.read_text(encoding="utf-8"))
+        if not match:
+            raise ValueError(f"Missing location in {talk_file.relative_to(ROOT)}")
+        location = match.group(1).strip()
+        if "," not in location:
+            raise ValueError(f"Location needs city and country: {talk_file.relative_to(ROOT)}")
+        if location not in locations:
+            locations.append(location)
+    return locations
 
+
+def geocode(location: str) -> tuple[float, float]:
+    query = urlencode({"format": "jsonv2", "limit": 1, "q": location})
+    request = Request(
+        f"https://nominatim.openstreetmap.org/search?{query}",
+        headers={"User-Agent": "thyuen.github.io-talk-map/1.0"},
+    )
+    with urlopen(request, timeout=30) as response:
+        result = json.load(response)
+    if not result:
+        raise ValueError(f"Could not geocode {location!r}")
+    return float(result[0]["lat"]), float(result[0]["lon"])
+
+
+def main() -> None:
+    points = []
+    for index, location in enumerate(talk_locations()):
+        if index:
+            time.sleep(1)  # Respect Nominatim's public API usage policy.
+        latitude, longitude = geocode(location)
+        print(f"{location}: {latitude}, {longitude}")
+        points.append([location, latitude, longitude])
+    OUTPUT.write_text("var addressPoints = " + json.dumps(points, indent=2) + ";\n", encoding="utf-8")
+
+
+if __name__ == "__main__":
+    main()
 
 
 
