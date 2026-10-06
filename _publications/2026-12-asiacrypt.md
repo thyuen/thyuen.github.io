@@ -8,5 +8,6 @@ venue: 'Asiacrypt 2026. December 7-11, 2026, Hong Kong, China'
 core_rank: 'A'
 ccf_rank: 'B'
 paperurl: ''
+preprinturl: 'https://eprint.iacr.org/2026/1949'
 citation: 'Xinyu Zhang, Weiping Ji, Tsz Hon Yuen, Ron Steinfeld, Joseph K. Liu and Shujie Cui. Verifiable Weighted Secret Sharing based on Chinese Remainder Theorem. To appear in Asiacrypt 2026.'
 ---
