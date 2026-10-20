@@ -16,6 +16,7 @@ author_profile: true
 
 <nav class="pub-year-nav" aria-label="Publication years">
   Browse by year:
+  <a href="#2027">2027</a>
   <a href="#2026">2026</a>
   <a href="#2025">2025</a>
   <a href="#2024">2024</a>
@@ -23,7 +24,7 @@ author_profile: true
   <a href="#earlier-work">Earlier work</a>
 </nav>
 
-{% assign recent_years = "2026,2025,2024,2023" | split: "," %}
+{% assign recent_years = "2027,2026,2025,2024,2023" | split: "," %}
 
 {% for year in recent_years %}
   <h2 id="{{ year }}">{{ year }}</h2>
