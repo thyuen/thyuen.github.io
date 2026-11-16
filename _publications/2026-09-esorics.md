@@ -8,5 +8,6 @@ venue: '31st European Symposium on Research in Computer Security (ESORICS) 2026.
 core_rank: 'A'
 ccf_rank: 'B'
 paperurl: ''
-citation: 'Ying-Teng Chen, Tsz Hon Yuen, Dongkun Hou, Jie Xu, Joseph K. Liu, Wayne Yang and Jiangshan Yu. SuccinCT: Succinct Confidential Transaction for Miner Privacy. To appear in 31st European Symposium on Research in Computer Security (ESORICS) 2026.'
+doi: '10.1007/978-3-032-38708-0_27'
+citation: 'Ying-Teng Chen, Tsz Hon Yuen, Dongkun Hou, Jie Xu, Joseph K. Liu, Wayne Yang, and Jiangshan Yu. “SuccinCT: Succinct Confidential Transaction for Miner Privacy.” In <i>Computer Security – ESORICS 2026</i>, Part IV, Lecture Notes in Computer Science, vol. 16971, pp. 546–566, 2027.'
 ---
