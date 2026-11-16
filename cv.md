@@ -122,7 +122,7 @@ For further presentations, please see the [Talks](/talks/) page.
 
 
 - Filed patents:
-  - 崔韩东, 邓锐波, 李颖杰, 王国林, 阮子汉. “数据处理方法、装置、电子设备及存储介质”. [Chinese Patent CN117201025A](https://patents.google.com/patent/CN117201025A/zh).
+  - 崔韩东, 陈钧贤, 阮子瀚, 康鑫, 朱成康. “零知识证明的方法、系统、装置、终端和存储介质”. [Chinese Patent CN117201025A](https://patents.google.com/patent/CN117201025A/zh); granted as [CN117201025B](https://patents.google.com/patent/CN117201025B/zh) on 28 Nov 2025.
 
   - T. H. Yuen, S. We, W. He. “Data Processing Method, Related Apparatus, and Blockchain System”. Singapore Patent PCT/SG2018/050200, 26 Apr 2018. [Google Patents record](https://patents.google.com/patent/WO2019209168A2/en).
 
