@@ -9,5 +9,6 @@ core_rank: 'A'
 ccf_rank: 'B'
 paperurl: ''
 doi: '10.1007/978-3-032-38708-0_27'
+preprinturl: 'https://eprint.iacr.org/2026/1288'
 citation: 'Ying-Teng Chen, Tsz Hon Yuen, Dongkun Hou, Jie Xu, Joseph K. Liu, Wayne Yang, and Jiangshan Yu. “SuccinCT: Succinct Confidential Transaction for Miner Privacy.” In <i>Computer Security – ESORICS 2026</i>, Part IV, Lecture Notes in Computer Science, vol. 16971, pp. 546–566, 2027.'
 ---
