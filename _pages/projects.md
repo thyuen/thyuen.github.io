@@ -58,6 +58,13 @@ My projects translate cryptographic research into practical technologies for tru
 ## Completed projects
 
 <div class="project-card">
+  <h3>CBDC Technologies and Their Role in Monetary Policy</h3>
+  <p><strong>Role:</strong> Principal Investigator<br>
+  <strong>Period:</strong> January 2026 – June 2026<br>
+  <strong>Funding:</strong> Hong Kong Institute for Monetary and Financial Research</p>
+</div>
+
+<div class="project-card">
   <h3>
     <a href="https://research.monash.edu/en/projects/more-efficient-and-scalable-post-quantum-multi-signatures/">
       More Efficient and Scalable Post-Quantum Multi-Signatures
@@ -70,4 +77,32 @@ My projects translate cryptographic research into practical technologies for tru
   <p>
     This project investigated more efficient and scalable multi-signature schemes designed for the post-quantum setting. It contributes to the development of cryptographic tools that can remain secure against future quantum-computing threats.
   </p>
+</div>
+
+<div class="project-card">
+  <h3>Analysis of secure multiparty computation protocols for performing logistic regression on encrypted data</h3>
+  <p><strong>Role:</strong> Principal Investigator<br>
+  <strong>Period:</strong> 2022 – 2023<br>
+  <strong>Funding:</strong> Logistics and Supply Chain MultiTech R&amp;D Centre Limited</p>
+</div>
+
+<div class="project-card">
+  <h3>Compact ECDSA Signatures for Smaller Blockchain</h3>
+  <p><strong>Role:</strong> Principal Investigator<br>
+  <strong>Period:</strong> 2022 – 2024<br>
+  <strong>Funding:</strong> Hong Kong RGC General Research Fund</p>
+</div>
+
+<div class="project-card">
+  <h3>Private Set Intersection for Data Exchange</h3>
+  <p><strong>Role:</strong> Principal Investigator<br>
+  <strong>Period:</strong> 2022 – 2024<br>
+  <strong>Funding:</strong> HKU-SCF FinTech Academy</p>
+</div>
+
+<div class="project-card">
+  <h3>Practical Generic Ring Signature towards the Post-Quantum Era</h3>
+  <p><strong>Role:</strong> Principal Investigator<br>
+  <strong>Period:</strong> 2021 – 2023<br>
+  <strong>Funding:</strong> Hong Kong RGC Early Career Scheme</p>
 </div>
